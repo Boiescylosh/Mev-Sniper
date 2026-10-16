@@ -1,0 +1,20 @@
+geth:
+  ipc_path: /root/.ethereum/geth.ipc
+  rpc_url: http://127.0.0.1:8545
+  ws_url: ws://127.0.0.1:8546
+
+flashbots:
+  relay: https://relay.flashbots.net
+  signer_key: ${FLASHBOTS_SIGNER_KEY}
+  target_builder: flashbots
+
+mev:
+  min_profit_eth: 0.01
+  max_gas_gwei: 200
+  target_dex: uniswap_v3
+  scan_interval_ms: 200
+  max_bundle_txs: 3
+
+logging:
+  level: INFO
+  file: logs/bot.log
