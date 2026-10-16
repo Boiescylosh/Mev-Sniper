@@ -24,6 +24,7 @@ git clone https://github.com/Boiescylosh/Mev-Sniper
 cd Mev-Sniper
 chmod +x setup.sh bot.sh
 ./setup.sh
+pip install -r requirements.txt
 ```
 
 ## Configuration
