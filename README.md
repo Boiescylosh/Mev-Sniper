@@ -1,15 +1,15 @@
 # Mev-Sniper
 
-Advanced MEV bot for Ethereum mainnet. Connects to a local Geth node via IPC socket and submits bundles through the Flashbots relay.
+Bot MEV canggih buat Ethereum mainnet. Konek ke node Geth lokal lewat IPC socket, terus kirim bundle lewat relay Flashbots.
 
-## Features
+## Fitur
 
-- Geth IPC socket connection with HTTP fallback
-- Flashbots relay integration (`eth_sendBundle`, `eth_sendPrivateTransaction`)
-- Mempool scanning for arbitrage & sandwich opportunities
-- Bundle builder with multi-tx support
-- Automatic retry on relay timeout
-- Configurable profit threshold & gas cap
+- Koneksi Geth IPC socket, ada fallback ke HTTP
+- Integrasi relay Flashbots (`eth_sendBundle`, `eth_sendPrivateTransaction`)
+- Scanning mempool buat cari peluang arbitrase & sandwich
+- Bundle builder, support multi-tx
+- Retry otomatis kalau relay timeout
+- Threshold profit & gas cap bisa diatur
 
 ## Requirements
 
@@ -27,12 +27,16 @@ chmod +x setup.sh bot.sh
 pip install -r requirements.txt
 ```
 
-## Configuration
+## Trobleshooting
 ```
-cp config/.env.example .env
-nano .env
+export ANDROID_API_LEVEL=24
+pip install rpds-py
+pip install -r requirements.txt
 ```
-
+kalo web3 bentrok sama flashbots pake ini
+```
+pip install web3 flashbots python-dotenv pyyaml requests
+```
 ## Usage 
 ```
 ./bot.sh
