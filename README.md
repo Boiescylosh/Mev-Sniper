@@ -17,6 +17,7 @@ Advanced MEV bot for Ethereum mainnet. Connects to a local Geth node via IPC soc
 - Geth node (fully synced, IPC enabled)
 - Flashbots signer key
 - Ethereum RPC endpoint
+  
 
 ## Installation
 
