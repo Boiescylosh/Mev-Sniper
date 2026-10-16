@@ -34,5 +34,5 @@ nano .env
 
 ## Usage 
 ```
-/bot.sh
+./bot.sh
 ```
