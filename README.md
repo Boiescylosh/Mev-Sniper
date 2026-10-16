@@ -20,7 +20,7 @@ Advanced MEV bot for Ethereum mainnet. Connects to a local Geth node via IPC soc
 
 ## Installation
 ```
-git clone https://github.com/Boiescylosh/Mev-Sniper.git
+git clone https://github.com/Boiescylosh/Mev-Sniper
 cd Mev-Sniper
 chmod +x setup.sh bot.sh
 ./setup.sh
