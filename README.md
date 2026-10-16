@@ -1,6 +1,6 @@
 # Mev-Sniper
 
-Bot MEV canggih buat Ethereum mainnet. Konek ke node Geth lokal lewat IPC socket, terus kirim bundle lewat relay Flashbots.
+Bot MEV canggih buat Ethereum mainnet. connect ke node Geth lokal lewat IPC socket, terus kirim bundle lewat relay Flashbots.
 
 ## Fitur
 
